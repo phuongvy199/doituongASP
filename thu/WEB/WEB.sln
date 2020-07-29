@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB", "WEB\WEB.csproj", "{6BD514E5-F0A5-4F57-A90A-1B5D0F102E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDB", "SQLDB\SQLDB.csproj", "{0509C9D0-BB9B-427A-B731-403E14AC67E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD514E5-F0A5-4F57-A90A-1B5D0F102E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD514E5-F0A5-4F57-A90A-1B5D0F102E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD514E5-F0A5-4F57-A90A-1B5D0F102E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD514E5-F0A5-4F57-A90A-1B5D0F102E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0509C9D0-BB9B-427A-B731-403E14AC67E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0509C9D0-BB9B-427A-B731-403E14AC67E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0509C9D0-BB9B-427A-B731-403E14AC67E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0509C9D0-BB9B-427A-B731-403E14AC67E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7CE7242-073A-4301-A3B0-759A2866DFDD}
+	EndGlobalSection
+EndGlobal

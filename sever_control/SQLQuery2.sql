@@ -1,0 +1,26 @@
+create table SANPHAM(
+  MASP NVARCHAR(10) PRIMARY KEY,
+  TENSP NVARCHAR(255) NOT NULL UNIQUE 
+)
+GO
+
+create table LOAISP(
+  MALSP NVARCHAR(10) PRIMARY KEY,
+  MASP NVARCHAR(10) references SANPHAM(MASP) on delete cascade,
+  MauSac NVARCHAR(255),
+  xuatSu NVARCHAR(255) ,
+  GIA float check (GIA >0 )
+) 
+ GO
+ CREATE TABLE KHACHHANG(
+	MAKH nvarchar(10) NOT NULL,
+	TENKH nvarchar(100) NULL,
+	TAIKHOAN nvarchar(50) NULL,
+	DCHI nvarchar(400) NULL
+	) GO
+CREATE TABLE HOADON (
+	SOHD nvarchar(10) PRIMARY KEY,
+	NGAYHD date ,
+	MAKH nvarchar(10)
+)
+GO
